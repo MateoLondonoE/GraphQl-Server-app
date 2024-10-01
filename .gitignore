@@ -1,0 +1,29 @@
+# Ignorar el entorno virtual
+venv/
+env/
+
+# Ignorar la base de datos de SQLite
+#db.sqlite3
+
+# Ignorar las migraciones (opcional)
+*/migrations/
+
+# Ignorar archivos estáticos recopilados
+staticfiles/
+
+# Ignorar el archivo de configuración de entorno
+.env
+.venv
+
+# Ignorar archivos temporales de Python
+*.pyc
+__pycache__/
+
+# Ignorar archivos de caché de Django
+*.log
+
+# Ignorar archivos de IDEs
+.idea/
+.vscode/
+
+node_modules/
